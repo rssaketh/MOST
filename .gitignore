@@ -1,0 +1,8 @@
+*.sh
+*.out
+*.err
+*__pycache__/*
+dino
+datasets
+saliency
+most_*
