@@ -1,7 +1,6 @@
 # Official Implementation of MOST (ICCV 2023 Oral)
 
-![alt text](https://github.com/rssaketh/MOST/blob/main/teaser_nohuman.png?raw=true)
-
+![alt text](https://github.com/rssaketh/MOST/blob/main/assets/teaser_nohuman.png?raw=true)
 
 ## Installation instructions
 Create a new conda environment
