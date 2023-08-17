@@ -1,4 +1,4 @@
-Implementation of MOST (ICCV 2023 Oral)
+# Official Implementation of MOST (ICCV 2023 Oral)
 
 #Installation instructions
 Create a new conda environment
