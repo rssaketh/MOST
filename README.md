@@ -1,6 +1,9 @@
 # Official Implementation of MOST (ICCV 2023 Oral)
 
-#Installation instructions
+![alt text](https://github.com/rssaketh/MOST/blob/main/teaser_nohuman.png?raw=true)
+
+
+## Installation instructions
 Create a new conda environment
 conda create -n most python=3.7
 
