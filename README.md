@@ -1,5 +1,5 @@
 # Official Implementation of MOST (ICCV 2023 Oral)
-[Sai Saketh Rambhatla](rssaketh@github.io), [Ishan Misra](imisra.github.io), [Rama Chellappa](https://engineering.jhu.edu/faculty/rama-chellappa/), [Abhinav Shrivastava](abhinavsh.info)
+[Sai Saketh Rambhatla](https://rssaketh@github.io), [Ishan Misra](https://imisra.github.io), [Rama Chellappa](https://engineering.jhu.edu/faculty/rama-chellappa/), [Abhinav Shrivastava](https://abhinavsh.info)
 
 ![alt text](https://github.com/rssaketh/MOST/blob/main/assets/teaser_nohuman.png?raw=true)
 
