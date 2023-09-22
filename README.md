@@ -32,4 +32,38 @@ conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10
 
 - Install other requirements
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
+- Install DINO
+```
+git clone https://github.com/facebookresearch/dino.git
+cd dino; 
+touch __init__.py
+echo -e "import sys\nfrom os.path import dirname, join\nsys.path.insert(0, join(dirname(__file__), '.'))" >> __init__.py; cd ../;
+```
+## MOST on a single image
+To apply MOST to an example image, run the following example
+```
+python main_most.py --image_path <path_to_image> --visualize pred
+```
+Results are stored in the output directory given by parameter `output_dir`.
+
+## Run MOST on datasets
+To run MOST on PASCAL VOC, COCO or other custom datasets, follow the dataset instructions of [LOST](https://github.com/valeoai/LOST#launching-lost-on-datasets).
+To launch MOST on PASCAL VOC 2007 and 2012 datasets, run
+```
+python main_most.py --dataset VOC07 --set trainval
+python main_most.py --dataset VOC12 --set trainval
+```
+For COCO dataset, run
+```
+python main_most.py --dataset COCO20k --set train
+```
+
+To run with different patch sizes or architectures, run
+```
+python main_most.py --dataset VOC07 --set trainval #VIT-S/16
+python main_most.py --dataset VOC07 --set trainval --patch_size 8 #VIT-S/8
+python main_most.py --dataset VOC07 --set trainval --arch vit_base #VIT-B/16
+```
